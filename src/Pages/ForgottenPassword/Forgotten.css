@@ -1,0 +1,36 @@
+
+.forgot-div{
+  background-color:white;
+   box-shadow: 5px 10px 18px #888888;
+   width: 40%;
+   height: 50vh;
+   margin-left: 30%;
+   margin-top: 50px;  
+}
+
+.forgot-div-para{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline red;
+}
+
+.forgot-div-form{
+  /* background-color: aquamarine; */
+  height: 40vh;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.forgot-div-form input{
+  width: 70%;
+  padding: 6px;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+
+.forgot-div-form label{
+  font-weight: bold;
+  font-family: sans-serif;
+}

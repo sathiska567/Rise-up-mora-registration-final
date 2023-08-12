@@ -1,0 +1,127 @@
+.black-color-div{
+  background-color: #0c2735;
+  height: 80vh;
+  width: 6px;
+
+}
+
+.blue-color-div{
+  background-color: #28a8e0;
+  height: 80vh;
+  width: 6px;
+}
+
+.yellow-color-div{
+  background-color: #f1c232;
+  height: 80vh;
+  width: 6px;
+}
+
+
+
+/* responsive */
+
+@media screen and (max-width:936px) {
+  .black-color-div{
+ 
+    height: 60vh;
+   
+  
+  }
+  
+  .blue-color-div{
+  
+    height: 60vh;
+   
+  }
+  
+  .yellow-color-div{
+   
+    height: 60vh;
+  }
+}
+
+
+@media screen and (max-width:715px) {
+  .black-color-div{
+ 
+    height: 67vh;
+   
+  
+  }
+  
+  .blue-color-div{
+  
+    height: 67vh;
+   
+  }
+  
+  .yellow-color-div{
+   
+    height: 67vh;
+  }
+}
+
+
+@media screen and (max-width:700px) {
+  .black-color-div{
+ 
+    height: 80vh;
+   
+  
+  }
+  
+  .blue-color-div{
+  
+    height: 80vh;
+   
+  }
+  
+  .yellow-color-div{
+   
+    height: 80vh;
+  }
+}
+
+
+@media screen and (max-width:575px) {
+  .black-color-div{
+ 
+    height: 68vh;
+
+   
+  
+  }
+  
+  .blue-color-div{
+  
+    height: 68vh;
+   
+  }
+  
+  .yellow-color-div{
+   
+    height: 68vh;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .black-color-div{
+ 
+    height: 73vh;
+
+   
+  
+  }
+  
+  .blue-color-div{
+  
+    height: 73vh;
+   
+  }
+  
+  .yellow-color-div{
+   
+    height: 73vh;
+  }
+}

@@ -1,0 +1,42 @@
+.navigate-section-link{
+  text-decoration: none;
+  font-size: 15px;
+  color: #28a8e0;
+}
+
+.navigate-section-text{
+  font-size: 15px;
+}
+
+.navigate-section{
+  margin-left: 20px;
+}
+
+
+/* responsive */
+@media screen and (max-width:950px) {
+  .navigate-section-text{
+    font-size: 15px;
+  }
+  
+  .navigate-section{
+    margin-left: 10px;
+  }
+}
+
+
+@media screen and (max-width:588px) {
+  .navigate-section-link{
+    text-decoration: none;
+    font-size: 13px;
+    color: #28a8e0;
+  }
+
+  .navigate-section-text{
+    font-size: 13px;
+  }
+  
+  .navigate-section{
+    margin-left: 5px;
+  }
+}

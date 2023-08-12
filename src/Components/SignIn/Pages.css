@@ -1,0 +1,370 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Style form section */
+.Form{
+width: 100%;
+
+   
+}
+
+.form-div{
+   width: 100%;
+   max-width: 100%;
+
+}
+
+
+
+/* style table section */
+.form-div-table{
+   width: 80%;
+   max-width: 80%;
+}
+
+.form-div-table-first-td{
+   text-align: center;
+}
+
+
+
+
+/* Style the test page */
+.form-table{
+   width: 100%;
+
+}
+
+
+/* ============================================================================================ */
+.form-table-div{
+   background-color:white;
+   box-shadow: 5px 10px 18px #888888;
+   width: 55%;
+   height: 80vh;
+   margin-left: 20%;
+   margin-top: 50px;   
+}
+
+
+
+/* ========================================================================================== */
+.form-table-logoSection{
+   width: 40%;
+}
+
+.form-table-ColorLine{
+   width: 8%;
+}
+
+.form-table-signIn{
+   width: 52%;
+}
+
+
+/* ================================================================================================= */
+
+.form-div-h1{
+   font-family: sans-serif;
+   font-size: 30px;
+   font-weight: bold;
+   margin-left: 26%;
+ }
+ 
+ .Form input{
+   width: 70%;
+   padding: 6px;
+   border-radius: 12px;
+   border: 2px solid black;
+ }
+ 
+ .Form label{
+   font-weight: bold;
+   font-family: sans-serif;
+ }
+ 
+ 
+ 
+ .passwordAndForgotTable{
+    width: 100%;   
+ }
+ 
+ .link{
+   text-decoration: none;
+   font-size: 12px;
+   color: black;
+ }
+ 
+ .errorMsg{
+   color: red;
+ }
+
+
+/* responsive */
+@media screen and (max-width:1246px) {
+
+   .form-table-div{
+      width: 60%;
+  }
+
+
+   .form-table-logoSection img{
+      width: 80%;
+   }
+
+   .form-table-signIn{
+      width: 90%;
+      padding-left: 30px;
+   }
+
+   .form-table-signIn button{
+      width: 70%;
+   }
+}
+
+
+
+@media screen and (max-width:1080px) {
+
+   .form-table-div{
+       width: 60%;
+   }
+
+
+
+   .form-table-logoSection img{
+      width: 85%;
+   }
+
+   .form-table-signIn input{
+      width: 80%;
+      padding-left: 30px;
+   }
+
+   .form-table-signIn button{
+      width: 80%;
+   }
+}
+
+
+@media screen and (max-width:960px) {
+
+   .form-table-div{
+
+      width: 80%;
+      height: 80vh;
+      margin-left: 10%;
+      margin-top: 50px;   
+   }
+   
+
+
+
+   .form-table-logoSection img{
+      width: 85%;
+   }
+
+   .form-table-signIn input{
+      width: 80%;
+      padding-left: 30px;
+   }
+
+   .form-table-signIn button{
+      width: 80%;
+   }
+}
+
+
+@media screen and (max-width:936px) {
+
+   .form-table-div{
+
+      width: 80%;
+      height: 60vh;
+      margin-left: 10%;
+      margin-top: 50px;   
+   }
+   
+
+
+
+   .form-table-logoSection img{
+      width: 85%;
+   }
+
+   .form-table-signIn input{
+      width: 80%;
+      padding-left: 30px;
+   }
+
+   .form-table-signIn button{
+      width: 80%;
+   }
+}
+
+
+
+@media screen and (max-width:715px) {
+
+   .form-table-div{
+
+      width: 90%;
+      height: 67vh;
+      margin-left: 5%;
+      margin-top: 50px;   
+   }
+   
+
+
+
+   .form-table-logoSection img{
+      width: 85%;
+   }
+
+   .form-table-signIn input{
+      width: 80%;
+      padding-left: 30px;
+   }
+
+   .form-table-signIn button{
+      width: 80%;
+   }
+}
+
+
+@media screen and (max-width:700px) {
+
+   .form-table-div{
+
+      width: 90%;
+      height: 80vh;
+      margin-left: 5%;
+      margin-top: 50px;   
+   }
+   
+
+
+
+   .form-table-logoSection img{
+      width: 85%;
+   }
+
+   .form-table-signIn input{
+      width: 80%;
+      padding-left: 30px;
+   }
+
+   .form-table-signIn button{
+      width: 80%;
+   }
+}
+
+
+
+@media screen and (max-width:625px) {
+
+   .form-div-h1{
+      margin-left: 23%;
+    }
+
+   .form-table-div{
+
+      width: 95%;
+      height: 80vh;
+      margin-left: 3%;
+      margin-top: 50px;   
+   }
+   
+   .form-table-logoSection img{
+      width: 85%;
+   }
+
+   .form-table-signIn input{
+      width: 85%;
+      padding-left: 30px;
+      padding: 4px;
+   }
+
+   .form-table-signIn label{
+      font-size: 0.8rem;
+   }
+
+   .form-table-signIn button{
+      width: 85%;
+   }
+
+}
+
+
+@media screen and (max-width:575px) {
+
+   .form-div-h1{
+      margin-left: 23%;
+    }
+
+   .form-table-div{
+
+      width: 95%;
+      height: 68vh;
+      margin-left: 3%;
+      margin-top: 50px;   
+   }
+   
+   .form-table-logoSection img{
+      width: 85%;
+   }
+
+   .form-table-signIn input{
+      width: 85%;
+      padding-left: 30px;
+      padding: 4px;
+   }
+
+   .form-table-signIn label{
+      font-size: 0.8rem;
+   }
+
+   .form-table-signIn button{
+      width: 85%;
+   }
+
+}
+
+
+@media screen and (max-width:480px) {
+
+   .form-div-h1{
+      margin-left: 23%;
+    }
+
+   .form-table-div{
+
+      width: 95%;
+      height: 73vh;
+      margin-left: 3%;
+      margin-top: 50px;   
+   }
+   
+   .form-table-logoSection img{
+      width: 85%;
+   }
+
+   .form-table-signIn input{
+      width: 80%;
+      padding-left: 30px;
+      height: 5vh;
+   }
+
+   .form-table-signIn label{
+      font-size: 0.8rem;
+   }
+
+   .form-table-signIn button{
+      width: 85%;
+   }
+
+}
+
